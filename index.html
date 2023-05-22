@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/main.css">
     <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="https://kit.fontawesome.com/9817cf6728.js" crossorigin="anonymous"></script>
+	<script src="js/app.js"></script>
     <link rel="icon" type="image/x-icon" href="img/Logo-vector.ico">
     <title>Estudio Holm. Saad & Asociados</title>
 </head>
@@ -16,7 +17,7 @@
 		<div class="nav row g-0 justify-content-between  rounded-top">
 			<!-- Logotipo -->
 			<div class="logo col-12 col-md-12 col-lg-4 d-flex align-items-center justify-content-center ps-4">
-				<h2 class="fw-bold text-uppercase mb-0">Estudio Holm. Saad & Asociados</h2>					
+				<h2 class="fw-bold text-uppercase mb-0">Holm. Saad & Asociados</h2>					
 			</div>
 
 			<!-- Enlaces -->
@@ -70,14 +71,91 @@
 				</a>
 			</nav>      
 		</div>   
-		<div class="row mt-5 galeria justify-content-center portafolio ">
-			<div class="contenedor-imagen mb-4 col-6 col-lg-4 ">			
-            <div>
-							<img  class="d-block w-100" src="./img/Logo_vector.png" alt="...">
-						</div>		
+		<div class="row mt-5 justify-content-between ">
+			<div class=" mt-5 pt-5  col-12 col-6 col-lg-6 text-center ">			
+				<h2 class="titulobueno1">Estudio Juridico Contable</h2>
+				<h1 class="titulobueno2  text-center">Holm. Saad & Asociados</h1>
+				<h3 class="titulobueno3">Derecho Maritimo y Comercio Exterior</h3>
+				 
+			 </div>	
+			<div class="contenedor-imagen  mb-4 col-12 col-lg-6 ">			
+                       <img  class="d-block w-100" src="./img/Logo_vector.png" alt="...">
+			</div>		
+			
 		</div>		
 	</header>
-  <main class="container my-5 mt-5">
+  <main class="container ">
+	<!-- Portafolio my-5 mt-5 -->
+	<div class="row portafolio g-0 px-4 mb-5">
+		<div class="col">
+			<h2 class="titulo text-center py-5"></h2>
+			<div class="row galeria">
+				<!-- Imagen #1 -->
+				<div class="contenedor-imagen mb-4 col-6 col-lg-4">
+					<a href="#" data-bs-toggle="modal" data-bs-target="#modal-galeria">
+						<img src="img/img-1.png" class="d-block w-100" alt="">
+					</a>
+				</div>
+
+				<!-- Imagen #2 -->
+				<div class="contenedor-imagen mb-4 col-12 col-lg-8">
+					<a href="#" data-bs-toggle="modal" data-bs-target="#modal-galeria">
+						<img src="img/img-2.jpg" class="d-block w-100" alt="">
+					</a>
+				</div>
+
+				<!-- Imagen #3 -->
+				<div class="contenedor-imagen mb-4 col-12 col-lg-8">
+					<a href="#" data-bs-toggle="modal" data-bs-target="#modal-galeria">
+						<img src="img/img-3.jpg" class="d-block w-100" alt="">
+					</a>
+				</div>
+
+				<!-- Imagen #4 -->
+				<div class="contenedor-imagen mb-4 col-6 col-lg-4">
+					<a href="#" data-bs-toggle="modal" data-bs-target="#modal-galeria">
+						<img src="img/img-4.png" class="d-block w-100" alt="">
+					</a>
+				</div>
+
+				<!-- Imagen #5 -->
+				<div class="contenedor-imagen mb-4 col-6 col-lg-4">
+					<a href="#" data-bs-toggle="modal" data-bs-target="#modal-galeria">
+						<img src="img/img-5.png" class="d-block w-100" alt="">
+					</a>
+				</div>
+
+				<!-- Imagen #6 -->
+				<div class="contenedor-imagen mb-4 col-6 col-lg-4">
+					<a href="#" data-bs-toggle="modal" data-bs-target="#modal-galeria">
+						<img src="img/img-6.png" class="d-block w-100" alt="">
+					</a>
+				</div>
+
+				<!-- Imagen #7 -->
+				<div class="contenedor-imagen mb-4 col-12 col-lg-4">
+					<a href="#" data-bs-toggle="modal" data-bs-target="#modal-galeria">
+						<img src="img/img-7.png" class="d-block w-100" alt="">
+					</a>
+				</div>
+			</div>
+
+			<!-- Ventana Modal -->
+			<div 
+				class="modal fade" 
+				id="modal-galeria" 
+				tabindex="-1"
+				aria-labelledby="modal-galeria"
+				aria-hidden="true"
+			>
+				<div class="modal-dialog modal-dialog-centered">
+					<div class="modal-content">
+						<img src="img/img-1.png" id="imagen-modal" alt="">
+					</div>
+				</div>	
+			</div>
+		</div>
+	</div>
       <!-- Acerca de -->
 	  <div class="row acerca-de px-4 mb-5 mt-5 align-items-center ">
 				<div class="col-12 col-lg-4 foto text-center">
