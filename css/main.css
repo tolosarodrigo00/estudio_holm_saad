@@ -111,7 +111,7 @@ header .menu .c5:hover { background: var(--primary-100); }
 /* Acerca de */
 .acerca-de .foto .nombre {
 	color:var(--primary-100);
-	font-weight: 300;
+	font-weight: bold;
 	font-size: 30px;
 	letter-spacing: 2px;
 }
@@ -150,6 +150,25 @@ header .menu .c5:hover { background: var(--primary-100); }
 	padding-left: 100px;
 }
 
+/* Juriscciones */
+.Juris {	
+	border-top: 3px solid var(--accent-100);
+}
+.Juris h1{	
+	color:var(--primary-200);
+	font-size: 50px;
+}
+
+.Juris h2{	
+	color:var(--primary-100);
+	font-size: 24px;
+}
+
+.Juris li{	
+	letter-spacing: 2px;
+	font-size: 16px;
+	color:var(--text-100);	
+}
 /*   MARCA  */
 
 .marca {	
@@ -157,6 +176,7 @@ header .menu .c5:hover { background: var(--primary-100); }
 }
 .marca h1{	
 	color:var(--primary-200);
+	font-size: 50px;
 }
 
 .marca h2{	
@@ -178,6 +198,7 @@ header .menu .c5:hover { background: var(--primary-100); }
 }
 .servicio h1{	
 	color:var(--primary-200);
+	font-size: 50px;
 }
 
 
@@ -200,49 +221,43 @@ header .menu .c5:hover { background: var(--primary-100); }
 
 
 /* Contacto */
-.contacto {
-	border-top: 1px solid var(--accent-100);
+.contacto {	
 	border-bottom: 1px solid var(--accent-100);
+
 }
 
 .contacto .titulo {
-	color:var(--bg-200);
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 300;
-	font-size: 40px;
-	margin-bottom: 40px;
-	text-align: center;
+	color:var(--primary-200);
+	font-size: 50px;
 }
 
-.contacto .formulario input[type="text"],
-.contacto .formulario input[type="email"],
-.contacto .formulario textarea {
-	padding: 15px;
-	border: none;
-	font-family: 'Open Sans', sans-serif;
+.contacto, h2 {
+	color:var(--primary-100);
+	font-size: 36px;
+}
+.contacto, p{
+	letter-spacing: 2px;
+	font-size: 20px;
+	color:var(--text-100);
+	color:var(--primary-100);
+	font-size: 20px;
 }
 
-.contacto .formulario textarea {
-	height: 150px;
-	min-height: 150px;
-	max-height: 250px;
-}
 
-.contacto .formulario .boton {
-	background: #3da5e2;
-	border: none;
-	padding: 7px 30px;
-	color: #fff;
-	font-family: 'Open Sans', sans-serif;
-	cursor: pointer;
-	width: auto;
-	border-radius: 3px;
-}
 
 .contacto .formulario .boton:hover {
 	background: #1BA0EF;
 }
 
+.cfooter ,h6{
+	color:var(--primary-200);
+	font-size: 20px;
+}
+
+.cfooter .nava{
+	color:var(--primary-200);
+	
+}
 /* Footer */
 .redes-sociales {
 	padding: 40px 0;
