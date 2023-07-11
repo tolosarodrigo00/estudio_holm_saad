@@ -85,7 +85,7 @@ header .menu .c5:hover { background: var(--primary-100); }
 }
 
 .portafolio .galeria .contenedor-imagen {
-	max-height: 180px;
+	max-height: 200px;
 	overflow: hidden;
 }
 
